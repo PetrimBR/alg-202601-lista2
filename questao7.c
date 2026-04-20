@@ -5,7 +5,6 @@
 int main() {
     int secreto, tentativa, contagem = 0;
 
-    /* Gera numero aleatorio entre 0 e 100 */
     srand(time(NULL));
     secreto = rand() % 101;
 
