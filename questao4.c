@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
     int a, b, r, mmc;
@@ -20,5 +21,6 @@ int main() {
 
     printf("MMC de %d e %d = %d\n", x, y, mmc);
 
+    system("pause");
     return 0;
 }
