@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
     float peso, altura, imc;
@@ -26,6 +27,6 @@ int main() {
     } else {
         printf("Classificacao: Obesidade grau III\n");
     }
-
+    system("pause");
     return 0;
 }
