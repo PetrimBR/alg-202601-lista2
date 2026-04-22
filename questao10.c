@@ -13,7 +13,7 @@ int main() {
         fat = fat * i;
     }
 
-    printf("O fatorial de %d é: %d\n", n, fat);
+    printf("O fatorial de %d e: %d\n", n, fat);
 
     system("pause");
     return 0;
