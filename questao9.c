@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
     float tamanho_mb, velocidade_mbps;
@@ -18,7 +19,8 @@ int main() {
 
     printf("\nTempo aproximado de download:\n");
     printf("  %.2f segundos\n", tempo_seg);
-    printf("  %.2f minutos\n", tempo_min);
-
+    printf("  %.2f minutos\n", tempo_min);	
+    
+	system("pause");
     return 0;
 }
