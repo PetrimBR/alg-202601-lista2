@@ -14,7 +14,7 @@ int main(){
 
     media = (a + b + c) / 3.0;
 
-    printf("Média: %.2f\n\n", media);
+    printf("Media: %.2f\n\n", media);
 
     system("pause");
     return 0;
