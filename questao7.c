@@ -25,6 +25,6 @@ int main() {
             printf("O numero secreto e MENOR que %d.\n", tentativa);
         }
     }
-
+	system("pause");
     return 0;
 }
