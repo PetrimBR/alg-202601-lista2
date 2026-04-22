@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <ctype.h>
+#include <stdlib.h>
 
 int main() {
     char letra;
@@ -17,6 +18,6 @@ int main() {
     } else {
         printf("'%c' e uma CONSOANTE.\n", letra);
     }
-
+    system("pause");
     return 0;
 }
